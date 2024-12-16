@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f7fa; /* Optional background color */
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff;
+    padding: 30px; /* Increased padding for consistency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Maximum width for form */
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-bottom: 5px; /* Adjusted for consistency */
+    font-size: 13px;
+    font-weight: 600;
+    color: #555; /* Darker color for better readability */
+}
+
+/* Input Field Styling */
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin-bottom: 18px; /* Consistent spacing */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border 0.2s ease;
+    background-color: #fdfdfd; /* Light background for input */
+}
+
+input:focus {
+    border-color: #007bff; /* Focus border color */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff;
+    padding: 12px 0; /* Padding for button */
+    font-size: 16px; /* Font size */
+    font-weight: 600;
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    width: 100%; /* Full width */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Error Message Styling */
+.error-message {
+    color: #e0245e; /* Error color */
+    margin-top: 8px;
+    font-size: 14px; /* Consistent font size */
+}
+
+/* Blog Header Logo */
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif; /* Decorative font */
+    text-decoration: none;
+    color: #007bff; /* Color for the logo */
+}
+
+/* Login Link Styling */
+#login a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#login a:hover {
+    color: darkblue; /* Darker color on hover */
+}
+
+/* Style the #login div */
+#login {
+    text-align: center;
+    margin: 20px;
+}

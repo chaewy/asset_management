@@ -1,0 +1,155 @@
+/* home.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background-color: #e74c3c; /* Red color for the tab bar */
+}
+
+.tab-bar {
+    display: flex;
+    justify-content: space-between; /* Space out links */
+    align-items: center; /* Vertically align items */
+    padding: 0.5rem 1rem; /* Smaller padding for the tab bar */
+    color: #fff;
+}
+
+.tab-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.3rem 0.8rem; /* Smaller padding for tabs */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 0.9rem; /* Smaller font size */
+}
+
+.tab-bar a:hover, .tab-bar a.active {
+    background-color: #c0392b; /* Darker shade on hover or active */
+}
+
+.tab-bar .profile-icon {
+    margin-left: auto; /* Push profile icon to the right */
+    padding: 0.5rem;
+}
+
+.tab-bar .profile-icon i {
+    font-size: 1.2rem; /* Adjust the icon size */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-content {
+    padding: 2rem;
+    width: 90%; /* Occupy more of the width */
+    margin: 0 auto;
+    flex: 1;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between; /* Spread out across the width */
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.stat-box {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%; /* Adjust width to fill available space */
+    text-align: center;
+}
+
+.stat-box h3 {
+    color: #34495e;
+}
+
+.stat-box p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.graphs {
+    margin: 2rem 0;
+    display: grid; /* Use grid layout for graphs */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 1.5rem; /* Space between graphs */
+}
+
+.graph-container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px; /* Fixed height for consistency */
+    width: 600px;
+}
+
+.recent-activity {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-activity li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-left: 4px solid #ffffff;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+

@@ -1,0 +1,130 @@
+/* General Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  /* Container for login form */
+  .login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .login-container:hover {
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form and input group styling */
+  form {
+    width: 100%;
+  }
+  
+  .input-group {
+    margin-bottom: 18px;
+  }
+  
+  label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border 0.2s ease;
+    background-color: #fdfdfd;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Styling the button */
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error and success message styling */
+  .error-message, .success-message {
+    font-size: 14px;
+    margin-bottom: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+  }
+  
+  /* Header logo */
+  .header-logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #007bff;
+  }
+  
+  /* Adjusting input and button responsiveness */
+  @media (max-width: 400px) {
+    .login-container {
+      padding: 20px;
+      border-radius: 8px;
+    }
+    
+    label, .btn {
+      font-size: 14px;
+    }
+  
+    input {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .header-logo h1 {
+      font-size: 20px;
+    }
+  }
+  
